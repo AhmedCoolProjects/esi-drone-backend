@@ -10,3 +10,7 @@ def welcome():
 @app.post("/tps")
 def tps():
     return {"message": "TPS"}
+
+@app.get("/tps")
+def tps():
+    return {"message": "TPS get"}
